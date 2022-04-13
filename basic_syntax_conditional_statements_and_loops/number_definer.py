@@ -1,3 +1,5 @@
+# Write a program that receives three whole numbers and prints the largest one.
+
 number = float(input())
 
 if number == 0:
