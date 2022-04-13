@@ -1,3 +1,5 @@
+# Write a program that takes a single string and prints a list of all the capital letters indices.
+
 string = input()
 listNum = []
 
