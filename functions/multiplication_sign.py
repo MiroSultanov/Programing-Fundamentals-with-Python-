@@ -1,3 +1,6 @@
+# You will receive three integer numbers. Write a program that finds if their multiplication (the result) is negative, positive, or zero. 
+# Try to do this WITHOUT multiplying the 3 numbers.
+
 num_list = []
 for _ in range(3):
     num_list.append(int(input()))
