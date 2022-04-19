@@ -1,3 +1,8 @@
+# You are given a secret message you should decipher. To do that, you need to know that in each word:
+# •	the second and the last letter are switched (e.g., Holle means Hello)
+# •	the first letter is replaced by its character code (e.g., 72 means H)
+
+
 numbers = '0123456789'
 index_num = lambda x: max(i for i in range(len(x)) if x[i]in numbers)
 
