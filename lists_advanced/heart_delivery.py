@@ -1,3 +1,15 @@
+# You will receive a string with even integers, separated by a "@" - this is our neighborhood. After that, a series of Jump commands will follow until 
+# you receive "Love!". Every house in the neighborhood needs a certain number of hearts delivered by Cupid so it can celebrate
+# Valentine's Day. The integers in the neighborhood indicate those needed hearts.
+# Cupid starts at the position of the first house (index 0) and must jump by a given length. The jump commands will be in this format: "Jump {length}". 
+# Every time he jumps from one house to another, the needed hearts for the visited house are decreased by 2: 
+# •	If the needed hearts for a certain house become equal to 0, print on the console "Place {house_index} has Valentine's day." 
+# •	If Cupid jumps to a house where the needed hearts are already 0, print on the console "Place {house_index} already had Valentine's day."
+# •	Keep in mind that Cupid can have a larger jump length than the size of the neighborhood, and if he does jump outside of it, he should start from the 
+# first house again (index 0)
+
+
+
 house_list = [int(x) for x in input().split('@')]
 
 index = 0
