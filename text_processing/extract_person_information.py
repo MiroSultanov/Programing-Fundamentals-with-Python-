@@ -1,3 +1,10 @@
+# Write a program that reads N lines of strings and extracts the name and the age of a given person:
+# •	The person's name will be surrounded by "@" and "|" in the format "@{name}|".
+# •	The person's age will be surrounded by "#" and "*" in the format "#{age}*".
+# Example: "Hello my name is @Peter| and I am #20* years old." 
+# For each found name-age pair, print a line in the following format "{name} is {age} years old."
+
+
 def extract_name():
     name = None
     age = None
