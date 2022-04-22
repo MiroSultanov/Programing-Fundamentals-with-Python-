@@ -1,3 +1,13 @@
+# You are given a collection of tickets separated by commas and spaces (one or many). You need to check each ticket to see if it has a winning combination of symbols:
+# •	A valid ticket has exactly 20 characters.
+# •	A winning ticket is a valid one, containing one of the symbols '@', '#', '$' or '^' uninterruptedly repeated at least 6 times in both halves of the tickets.
+# •	In order to win a Jackpot, the ticket should contain the same winning symbol 10 times on both sides
+# An example of a valid winning ticket:
+# "Cash$$$$$$Ca$$$$$$sh"
+# An example of a Jackpot winning valid ticket:
+# "$$$$$$$$$$$$$$$$$$$$"
+
+
 def additional_func(partition):
     current_max_num = 0
     special_char = ''
