@@ -1,3 +1,7 @@
+# Write a program that decrypts a message by a given key and gathers information about hidden treasure type and its coordinates.
+# On the first line, you will receive a key (sequence of numbers separated by a space).
+# On the next few lines, you will receive lines with strings until you get the command "find". 
+
 def treasure_finder():
     key = ''.join([x for x in input().split(' ')])
 
