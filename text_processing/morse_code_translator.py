@@ -1,3 +1,8 @@
+# Write a program that translates messages from Morse code to English (capital letters). Use this page to help you (without the numbers). 
+# The words will be separated by a space (' '). Each word is separated by a ' | '. Print the found words on one line, separated by a space.
+
+
+
 def morse_code_translator():
     morse_code_dict = {'.-': 'A', '-...': 'B',
                        '-.-.': 'C', '-..': 'D', '.': 'E',
